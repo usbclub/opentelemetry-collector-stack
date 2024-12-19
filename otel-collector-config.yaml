@@ -15,8 +15,8 @@ exporters:
 service:
   telemetry:
     logs:
-      level: "DEBUG"
-      development: true
+      level: "INFO"
+      development: false
   pipelines:
     logs:
       receivers: [otlp]
